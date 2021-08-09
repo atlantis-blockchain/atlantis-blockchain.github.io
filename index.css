@@ -10,7 +10,7 @@ p {
 
 body {
   margin: 0;
-  background: black;
+  background: rgb(40, 45, 95);
 }
 
 canvas {
@@ -148,8 +148,7 @@ body main #intro h2 {
 }
 #intro-text #reasons .reason ul li {
   padding: 1rem;
-  color: black;
-  background: lightgreen;
+  color: white;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   border-right: 1px solid rgba(255, 255, 255, 0.5);
