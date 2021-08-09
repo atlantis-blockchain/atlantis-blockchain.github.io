@@ -91,9 +91,9 @@ function animate() {
 
   radians += 0.0055;
 
-  if (mouseMove && alpha >= 0.1) {
+  if (!mouseMove && alpha >= 0.1) {
     alpha -= 0.015;
-  } else if (!mouseMove && alpha < 1) {
+  } else if (mouseMove && alpha < 1) {
     alpha += 0.01;
   }
 }
