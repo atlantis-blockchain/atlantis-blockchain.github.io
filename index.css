@@ -10,7 +10,6 @@ p {
 
 body {
   margin: 0;
-
   background: black;
 }
 
@@ -51,8 +50,6 @@ body main #intro h2 {
   padding: 14px 16px;
   font-size: 17px;
   text-decoration: none;
-  background: rgb(17, 12, 95);
-  border: 0.1px solid white;
 }
 
 .top-item a:hover {
