@@ -1,0 +1,25 @@
+<style>
+    html {
+        height: 100%;
+        width: 1000%;
+        background-image:
+            url('/forest/layer-0.png'), url('/forest/layer-1.png'), url('/forest/layer-2.png'), url('/forest/layer-3.png'), url('/forest/layer-4.png'), url('/forest/layer-5.png'), url('/forest/layer-6.png'), url('/forest/layer-7.png'), url('/forest/layer-8.png'), url('/forest/layer-9.png'), url('/forest/layer-10.png');
+        background-repeat: repeat-x;
+        animation: 30s forest-frame infinite alternate;
+    }
+
+    @keyframes forest-frame {
+        100% {
+            background-position:
+                100px 10%,
+                200px 20%,
+                300px 30%,
+                400px 40%,
+                500px 50%,
+                600px 60%,
+                700px 70%,
+                800px 80%,
+                900px 90%;
+        }
+    }
+</style>
