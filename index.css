@@ -129,6 +129,11 @@ body main #intro h2 {
   align-items: flex-start;
   padding: 0 20px;
 }
+
+li {
+  text-align: left;
+}
+
 #intro-text #reasons img {
   float: right;
 }

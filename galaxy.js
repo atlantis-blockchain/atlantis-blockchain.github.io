@@ -89,12 +89,12 @@ function animate() {
   });
   c.restore();
 
-  radians += 0.0055;
+  radians -= 0.0055;
 
-  if (!mouseMove && alpha >= 0.1) {
-    alpha -= 0.015;
-  } else if (mouseMove && alpha < 1) {
-    alpha += 0.01;
+  if (mouseMove && alpha < 1) {
+    alpha += 0.015;
+  } else if (!mouseMove && alpha >= 0.1) {
+    alpha -= 0.01;
   }
 }
 
